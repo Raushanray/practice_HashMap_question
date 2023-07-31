@@ -17,8 +17,13 @@ public class App {
 		  Student student = new Student("Raushan");
 		  
 		  map.put(student, "India");
-		 
+		  
+		// now creating one more object of student. 
+			 Student student2 = new Student("Ravi");
+			  map.put(student2, "India,Delhi");
+			  
 		  System.out.println(map.get(student)); 
+		  System.out.println(map.get(student2));
 
 		
 		
