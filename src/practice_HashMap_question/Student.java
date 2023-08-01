@@ -1,11 +1,10 @@
 package practice_HashMap_question;
 
-public class Student {
+final public class Student {
 	
-	private String name;
+	final private String name;
 
 	public Student(String name) {
-		super();
 		this.name = name;
 	}
 
@@ -13,9 +12,7 @@ public class Student {
 		return name;
 	}
 
-	public void setName(String name) {
-		this.name = name;
-	}
+	
 
 	@Override
 	public int hashCode() {

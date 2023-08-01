@@ -33,10 +33,8 @@ public class App {
 
 				map.put(student, "India");
 				
-				//here set the new name of this object
-				student.setName("Rahul");
-
 				System.out.println(map.get(student));
+				System.out.println("******************");
 		
 		//Now delete the newly created object and setName of old object and  the hapshmap is giving null..  but aspect correct output
 		
