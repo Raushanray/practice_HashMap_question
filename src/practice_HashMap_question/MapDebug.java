@@ -22,8 +22,15 @@ public class MapDebug {
 		 * here i have both put have same key so here when i debug this then first get the value 1 and
 		 *  when i go with second then the value = 2 simply update the value...because the hashcode is same...
 		 */
-		map.put("aa", 1);
-		map.put("aa", 2);
+//		map.put("aa", 1);
+//		map.put("aa", 2);
+		/*
+		 * HashMap internals During null Key
+		 */
+		/*
+		 * when u use null as a key of hash map then it will store at zero(0)th node/index/bucket..
+		 */
+		map.put(null, 2);
 	}
 
 }
