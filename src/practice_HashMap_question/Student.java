@@ -1,6 +1,6 @@
 package practice_HashMap_question;
-
-final public class Student {
+//immutable class
+ public class Student {
 	
 	final private String name;
 
