@@ -30,7 +30,23 @@ public class MapDebug {
 		/*
 		 * when u use null as a key of hash map then it will store at zero(0)th node/index/bucket..
 		 */
-		map.put(null, 2);
+		//map.put(null, 2);
+		
+		
+		map.put("a", 2);
+		map.put("b", 2);
+		map.put("c", 2);
+		map.put("d", 2);
+		map.put("e", 2);
+		map.put("f", 2);
+		map.put("g", 2);
+		map.put("h", 2);
+		map.put("i", 2);
+		map.put("j", 2);
+		map.put("k", 2);
+		map.put("l", 2);
+		map.put("m", 2);
+		
 	}
 
 }
