@@ -32,7 +32,16 @@ public class MapDebug {
 		 */
 		//map.put(null, 2);
 		
-		
+		/*
+		 * here i am adding 13 value with different key..
+		 * here the loadFactor default value =0.75 means the table is filled 75% then 
+		 * the table will update with the size double..
+		 * and one more thing Threshold = 12 means 12 node is full of table then
+		 * the table will update with the size of double..
+		 * here u can see (loadfactor * table default node size = threshold), 
+		 * (0.75*16 = 12)
+		 * 
+		 */
 		map.put("a", 2);
 		map.put("b", 2);
 		map.put("c", 2);
