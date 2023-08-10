@@ -17,8 +17,12 @@ public class DuplicateString {
 		 for (String tempString: s) {
 			 //just for debugging.
 //			System.out.println(tempString);
-			 
+			 if (hm.get(tempString) != null) {
+				 hm.put(tempString, hm.get(tempString) + 1);
+			}else
+			{
 			hm.put(tempString, 1);
+			}
 		 
 	}
 	 System.out.println(hm);
