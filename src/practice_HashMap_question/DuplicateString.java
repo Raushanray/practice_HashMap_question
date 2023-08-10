@@ -1,6 +1,7 @@
 package practice_HashMap_question;
 
 import java.util.HashMap;
+import java.util.Iterator;
 
 /*
  * Find and display the number of duplicate occurrences of each 
@@ -25,7 +26,15 @@ public class DuplicateString {
 			}
 		 
 	}
-	 System.out.println(hm);
+//	 System.out.println(hm);
+		 Iterator<String> tempString = hm.keySet().iterator();
+		 while(tempString.hasNext())
+		 {
+			 String temp = tempString.next();
+			 if (hm.get(temp) > 1) {
+				System.out.println("The Word \""+ temp + "\" appred "+ hm.get(temp) + " no of times" );
+			}
+		 }
 	}
 	
 	public static void main(String[] args) {
